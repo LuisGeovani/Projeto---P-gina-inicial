@@ -31,3 +31,17 @@
 .link:hover {
     text-decoration: underline;
 }
+
+/* CABEÇALHO */
+.cabecalho {
+    padding: 2px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho #logo {
+    margin: 10px;
+}
+.cabecalho #links {
+    margin-inline: 3px;
+}

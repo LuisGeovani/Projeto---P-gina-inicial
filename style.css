@@ -45,3 +45,17 @@
 .cabecalho #links {
     margin-inline: 3px;
 }
+
+/* SESSÕES */
+#apresentacao {
+    padding: 3px;
+
+    display: inline;
+}
+#apresentacao #text {
+    text-align: left;
+}
+#apresentacao #img {
+    margin: 2px;
+    border-radius: 100%;
+}

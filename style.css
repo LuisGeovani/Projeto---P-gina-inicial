@@ -17,6 +17,7 @@ body {
 }
 .text-primary {
     color: #56776F;
+    font-size: 48px;
 }
 .text-black {
     color: #000000;
@@ -101,4 +102,22 @@ body {
 }
 .card #caption {
     font-size: smaller;
+}
+
+/*informações*/
+#texto_esquerdo{
+    text-align: left;
+    
+}
+#ambiente{
+    float: right;
+    justify-content:flex-end;
+    height: 33em;
+    width:45em;
+    margin: 10px;
+     margin-inline: 35px;
+}
+#titulop{
+    color:#56776F ;
+    font-size: 48px;
 }

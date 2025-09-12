@@ -134,20 +134,26 @@ body {
 }
 
 /*informações*/
-#texto_esquerdo{
+#info #texto_esquerdo{
     text-align: left;
     
 }
-#ambiente{
+#info #ambiente{
     float: right;
+    margin-left: 10px;
     justify-content:flex-end;
     height: 33em;
-    width:45em;
+    width:50em;
     margin: 10px;
-     margin-inline: 35px;
+     margin-inline: 30px;
 }
-#titulop{
+#info #titulop{
     color:#56776F ;
     font-size: 48px;
+}
+
+#info p{
+    text-align: left;
+    
 }
 

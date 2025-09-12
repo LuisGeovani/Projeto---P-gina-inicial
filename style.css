@@ -21,3 +21,13 @@
 .text-white {
     color: #ffffff;
 }
+
+/* TEXTO */
+.link {
+    text-decoration: none;
+
+    transition: 500ms;
+}
+.link:hover {
+    text-decoration: underline;
+}

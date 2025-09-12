@@ -32,6 +32,12 @@ body {
 .link:hover {
     text-decoration: underline;
 }
+.text-bold {
+    font-weight: bolder;
+}
+.text-underline {
+    text-decoration: underline;
+}
 
 /* CABEÇALHO */
 .cabecalho {
@@ -56,7 +62,7 @@ body {
     margin: 10px;
     margin-inline: 35px;
 
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 
@@ -64,13 +70,17 @@ body {
 #apresentacao {
     padding: 3px;
 
-    display: inline;
+    display: flex;
 }
 #apresentacao #text {
+    width: 50em;
+
     text-align: left;
 }
 #apresentacao #img {
     margin: 2px;
+    width: 50em;
+
     border-radius: 100%;
 }
 #galeria {

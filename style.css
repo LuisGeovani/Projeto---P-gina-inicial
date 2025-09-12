@@ -2,9 +2,11 @@ body {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
-}
-body {
     margin: 0px;
+}
+
+.titulo{
+    font-family: "DM Serif Display", serif;
 }
 
 /* CORES */
@@ -73,7 +75,6 @@ body {
 #apresentacao {
     padding: 3px;
     height: 40rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +98,7 @@ body {
     padding-right: 5rem;
 }
 #apresentacao #img img {
-    width: 30rem;
+    width: 35rem;
     border-radius: 100%;
 }
 #apresentacao button {
@@ -112,9 +113,14 @@ body {
 }
 #apresentacao #texto h2{
     max-width: 30rem;
+    margin: 0 0 0 0;
 }
+
+
 #galeria {
-    padding: 3px;
+    padding-top: 0px;
+    height: 40rem;
+    margin-bottom: 0;
 }
 .card {
     padding-inline: 3px;

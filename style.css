@@ -1,0 +1,20 @@
+* {
+    font-family: Arial;
+}
+
+/* CORES */
+.bg-claro {
+    background-color: #FCF9F2;
+}
+.bg-escuro {
+    background-color: #F7F2DF;
+}
+.bg-vermelho {
+    background-color: #D0342F;
+}
+.text-primary {
+    color: #56776F;
+}
+.text-black {
+    color: #000000;
+}

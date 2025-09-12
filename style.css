@@ -71,17 +71,24 @@ body {
     padding: 3px;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-#apresentacao #text {
-    width: 50em;
+#apresentacao #texto {
+    width: 30em;
+    margin: 100px;
 
     text-align: left;
 }
 #apresentacao #img {
-    margin: 2px;
-    width: 50em;
+    width: 30em;
+    margin: 10px;
+    margin-inline: 35px;
+}
+#apresentacao #img img {
+    width: 400px;
 
-    border-radius: 100%;
+     border-radius: 100%;
 }
 #galeria {
     padding: 3px;

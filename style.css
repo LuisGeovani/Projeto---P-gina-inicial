@@ -1,6 +1,9 @@
 * {
     font-family: Arial;
 }
+body {
+    margin: 0px;
+}
 
 /* CORES */
 .bg-claro {
@@ -25,8 +28,6 @@
 /* TEXTO */
 .link {
     text-decoration: none;
-
-    transition: 500ms;
 }
 .link:hover {
     text-decoration: underline;
@@ -35,15 +36,28 @@
 /* CABEÇALHO */
 .cabecalho {
     padding: 2px;
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
-}
-.cabecalho #logo {
-    margin: 10px;
+    align-items: center;
 }
 .cabecalho #links {
-    margin-inline: 3px;
+    margin-inline: 80px;
+
+    width: fit-content;
+}
+.cabecalho #links a {
+    margin-inline-start: 10px;
+
+    font-size: medium;
+}
+.logo {
+    margin: 10px;
+    margin-inline: 35px;
+
+    width: 400px;
+    height: auto;
 }
 
 /* SESSÕES */

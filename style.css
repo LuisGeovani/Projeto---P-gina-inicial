@@ -131,19 +131,23 @@ body {
 /*informações*/
 #info{
     text-align: left;
-    height: 40rem;
+    
 }
-#info #img img{
-    display: flex;
-    justify-content: space-between;
-    width: 20rem;
-    height: auto;
+#informacoes #ambiente{
+    float: right;
+    margin-left: 10px;
+    justify-content:flex-end;
+    height: 33em;
+    width:50em;
+    margin: 10px;
+     margin-inline: 30px;
 }
-#info #texto{
-    max-width: 30rem;
-}
-
-#titulop{
+#info #titulop{
     color:#56776F ;
     font-size: 48px;
 }
+
+#info p{
+    text-align: left;
+}
+

@@ -1,7 +1,5 @@
 body {
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
     margin: 0px;
 }
 
@@ -61,7 +59,6 @@ body {
 }
 .cabecalho #links a {
     margin-inline-start: 10px;
-
     font-size: medium;
 }
 .logo {
@@ -84,7 +81,6 @@ body {
     width: 30em;
     margin: 100px;
     font-size: 30px;
-
     text-align: left;
 }
 #apresentacao p{
@@ -94,7 +90,7 @@ body {
 }
 #apresentacao #img {
     width: 540px;
-    margin: 10  px;
+    margin: 10px;
     margin-inline: 35px;
     padding-right: 5rem;
 }
@@ -134,13 +130,13 @@ body {
 .card #caption {
     font-size: smaller;
 }
+
 #galeria div{
 
 }
 
-/*info*/´
+/*info*/
 #text{
-
 
 }
 #texto_esquerdo{
@@ -157,5 +153,13 @@ body {
 
 #textinf{
     text-align: left;
+}
+
+#parceiros img{
+  padding-left: 10rem;
+  padding-bottom: 10px;
+  height: 5rem;
+  width: auto;
+
 }
 

@@ -134,13 +134,7 @@ body {
     
 }
 #informacoes #ambiente{
-    float: right;
-    margin-left: 10px;
-    justify-content:flex-end;
-    height: 33em;
-    width:50em;
-    margin: 10px;
-     margin-inline: 30px;
+    padding-left: 10rem;
 }
 #info #titulop{
     color:#56776F ;
@@ -159,3 +153,7 @@ body {
 
 }
 
+#parceiros #imagens {
+    display: flex;
+    height: 20rem;
+}

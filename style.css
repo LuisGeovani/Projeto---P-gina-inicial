@@ -4,6 +4,7 @@ body {
 }
 
 .titulo{
+    color: red;
     font-family: "DM Serif Display", serif;
 }
 
@@ -145,15 +146,20 @@ body {
     text-align: left;
 }
 
+#parceiros{
+    height: 20rem;
+}
 #parceiros img{
   padding-left: 10rem;
-  padding-bottom: 10px;
   height: 5rem;
   width: auto;
-
 }
+#parceiros #imagensb{
+    padding-top: 3rem;
+}
+#parceiros #texto{
+    color: black;
+    font-size: 38px;
+    padding-left: 2rem;
 
-#parceiros #imagens {
-    display: flex;
-    height: 20rem;
 }

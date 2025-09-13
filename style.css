@@ -134,11 +134,11 @@ body {
 }
 
 /*informações*/
-#info #texto_esquerdo{
+#texto_esquerdo{
     text-align: left;
     
 }
-#info #ambiente{
+#informacoes #ambiente{
     float: right;
     margin-left: 10px;
     justify-content:flex-end;
@@ -154,6 +154,5 @@ body {
 
 #info p{
     text-align: left;
-    
 }
 

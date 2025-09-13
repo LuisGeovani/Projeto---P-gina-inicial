@@ -1,7 +1,5 @@
 body {
     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
     margin: 0px;
 }
 
@@ -61,7 +59,6 @@ body {
 }
 .cabecalho #links a {
     margin-inline-start: 10px;
-
     font-size: medium;
 }
 .logo {
@@ -84,7 +81,6 @@ body {
     width: 30em;
     margin: 100px;
     font-size: 30px;
-
     text-align: left;
 }
 #apresentacao p{
@@ -94,7 +90,7 @@ body {
 }
 #apresentacao #img {
     width: 540px;
-    margin: 10  px;
+    margin: 10px;
     margin-inline: 35px;
     padding-right: 5rem;
 }
@@ -117,7 +113,6 @@ body {
     margin: 0 0 0 0;
 }
 
-
 #galeria {
     padding-top: 0px;
     height: 40rem;
@@ -134,18 +129,20 @@ body {
 }
 
 /*informações*/
-#texto_esquerdo{
+#info{
     text-align: left;
-    
+    height: 40rem;
 }
-#ambiente{
-    float: right;
-    justify-content:flex-end;
-    height: 33em;
-    width:45em;
-    margin: 10px;
-     margin-inline: 35px;
+#info #img img{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: auto;
 }
+#info #texto{
+    max-width: 30rem;
+}
+
 #titulop{
     color:#56776F ;
     font-size: 48px;

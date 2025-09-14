@@ -6,6 +6,7 @@ body {
 .titulo{
     color: red;
     font-family: "DM Serif Display", serif;
+    text-wrap: balance;
 }
 
 /* CORES */
@@ -45,7 +46,6 @@ body {
 
 /* CABEÇALHO */
 .cabecalho {
-
     padding: 2px;
     width: 100%;
 
@@ -75,7 +75,7 @@ body {
     padding: 3px;
     height: 40rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 #apresentacao #texto {
@@ -100,6 +100,7 @@ body {
     border-radius: 100%;
 }
 #apresentacao button {
+    background-color: #D0342F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +109,10 @@ body {
     padding: 1rem 5rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+#apresentacao button:hover {
+    background-color: #b92f2a;
 }
 #apresentacao #texto h2{
     max-width: 30rem;
@@ -175,6 +180,7 @@ body {
  #titulop{
     color:#56776F ;
     font-size: 48px;
+    margin: 0px;
 }
 
 

@@ -144,7 +144,6 @@ body {
 
 
 
-
 /*info*/
 #info{
     height: 90vh;
@@ -159,24 +158,22 @@ body {
 
 #text{
     font-size: 24px;
-   
 }
 #divinfo{
     width: 25%;
     
 }
 #leiamais{
-
+    color: #000000;
 }
 
-#informacoes #ambiente{
-   float: right;  
-}
 #ambiente img{
     height: 500px;
     width: 400px;
+    padding-left: 430px; 
    
 }
+
  #titulop{
     color:#56776F ;
     font-size: 48px;
@@ -215,6 +212,41 @@ body {
 
 }
 
+
+/* rodape */
+
+#rodape{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+}
+
+#logo-r img{
+    padding-top:50px ;
+    height: 107px;
+}
+
+#contato{
+    padding-top:50px ;
+}
+#contatos{
+    display: flex;
+    gap: 20px;
+}
+
+#contatos img{
+    padding-top: 15px;
+    height: 37px;
+    width: 37px;
+}
+
+#infos{
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+
 #mais {
     display: flex;
     height: 100vh;
@@ -232,6 +264,7 @@ body {
     max-width: 80vh;
 }
 #mais p{
+    display: flex;
     padding-top: 50vh;
     color: black;
     font-size: 30px;

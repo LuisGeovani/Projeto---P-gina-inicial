@@ -1,6 +1,7 @@
 body {
     font-family: "DM Serif Display", serif;
     margin: 0px;
+    background-color: #FCF9F2;
 }
 
 .titulo{
@@ -73,7 +74,7 @@ body {
 /* SESSÕES */
 #apresentacao {
     padding: 3px;
-    height: 40rem;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -90,13 +91,12 @@ body {
     font-size: 20px;
 }
 #apresentacao #img {
-    width: 540px;
     margin: 10px;
     margin-inline: 35px;
     padding-right: 5rem;
 }
 #apresentacao #img img {
-    width: 35rem;
+    width: 70vh;
     border-radius: 100%;
 }
 #apresentacao button {
@@ -194,12 +194,15 @@ body {
 
 
 #parceiros{
-    height: 20rem;
+    height: 50vh;
 }
 #parceiros img{
-  padding-left: 10rem;
-  height: 5rem;
-  width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: auto;
+    padding-left: 25vh;
 }
 #parceiros #imagensb{
     padding-top: 3rem;
@@ -210,4 +213,27 @@ body {
     padding-left: 5rem;
     padding-top: 2rem;
 
+}
+
+#mais {
+    display: flex;
+    height: 100vh;
+}
+#mais img{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    height: 80vh;
+}
+#mais #titulo{
+    padding-left: 10vh;
+    padding-top: 50vh;
+    color: black;
+    font-size: 30px;
+    max-width: 80vh;
+}
+#mais p{
+    padding-top: 50vh;
+    color: black;
+    font-size: 30px;
+    max-width: 80vh;
 }

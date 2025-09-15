@@ -120,25 +120,30 @@ body {
 }
 
 /*galeria*/
-
-#galeria {
-    padding-top: 0px;
-    height: 40rem;
-    margin-bottom: 0;
+#galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.card {
-    padding-inline: 3px;
-}
-.card #img {
-    border-radius: 5%;
-}
-.card #caption {
-    font-size: smaller;
+.carousel-container {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#galeria div{
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
+.carousel-track img {
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 

@@ -251,27 +251,23 @@ body {
     padding-right: 40px;
 }
 
+/* chefe */
 
 #mais {
     display: flex;
     height: 100vh;
 }
 #mais img{
-    padding-bottom: 10vh;
-    padding-top: 10vh;
-    height: 80vh;
+    width: 797px;
 }
 #mais #titulo{
     padding-left: 10vh;
-    padding-top: 50vh;
+    padding-top: 30vh;
     color: black;
     font-size: 30px;
     max-width: 80vh;
 }
-#mais p{
-    display: flex;
-    padding-top: 50vh;
-    color: black;
-    font-size: 30px;
-    max-width: 80vh;
+#saibamais{
+   padding-left: 10vh;
+   text-decoration: underline;
 }

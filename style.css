@@ -131,12 +131,14 @@ body {
 
 
 #cardapio{
- justify-content: center;
+    padding-left: 20vh;
+    font-size: 20px;
 }
 .carousel-container {
-    width: 80%;
+    height: 80vh;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 0;
     overflow: hidden; 
 }
 
@@ -151,19 +153,22 @@ body {
 }
                 
 .carousel-text-container {
+    font-weight: bold;
+    margin-left: 65vh;
     width: 80%;
-    max-width: 600px; 
-    margin: 0;
-    text-align: center;
-    padding: 20px;
+    max-width: 600px;
     color: #333;
     font-size: 20px;
 }
 .carousel-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: none;
-    }
+}
 
 .carousel-text.active {
+    text-align: center;
     display: block;
 }
 

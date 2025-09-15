@@ -1,31 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
     const track = document.querySelector('.carousel-track');
     const images = document.querySelectorAll('.carousel-track img');
-    
     const texts = document.querySelectorAll('.carousel-text');
+
     let currentIndex = 0;
     const intervalTime = 3000;
 
+    /**
+     * Função centralizada para mostrar um slide específico (imagem e texto).
+     * @param {number} index - O índice do slide a ser exibido.
+     */
+    function showSlide(index) {
+        const imageWidth = images[0].clientWidth;
+        track.style.transform = `translateX(-${index * imageWidth}px)`;
 
-    function updateText() {
         texts.forEach(text => {
             text.classList.remove('active');
         });
-        texts[currentIndex].classList.add('active');
+        texts[index].classList.add('active');
     }
 
-    function moveCarousel() {
+    function nextSlide() {
         currentIndex++;
-
+        
         if (currentIndex >= images.length) {
             currentIndex = 0;
         }
-        
-        const imageWidth = images[0].clientWidth;
-        track.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
-        
-        updateText();
+
+        showSlide(currentIndex);
     }
-    setInterval(moveCarousel, intervalTime);
-    updateText(); 
+
+    setInterval(nextSlide, intervalTime);
+
+    showSlide(0);
 });

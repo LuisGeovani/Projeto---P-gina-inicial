@@ -144,7 +144,6 @@ body {
 
 
 
-
 /*info*/
 #info{
     height: 90vh;
@@ -159,24 +158,25 @@ body {
 
 #text{
     font-size: 24px;
-   
 }
 #divinfo{
     width: 25%;
     
 }
 #leiamais{
-
+    color: #000000;
 }
 
 #informacoes #ambiente{
-   float: right;  
+  
 }
 #ambiente img{
     height: 500px;
     width: 400px;
+    padding-left: 430px; 
    
 }
+
  #titulop{
     color:#56776F ;
     font-size: 48px;

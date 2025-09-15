@@ -167,9 +167,6 @@ body {
     color: #000000;
 }
 
-#informacoes #ambiente{
-  
-}
 #ambiente img{
     height: 500px;
     width: 400px;
@@ -210,4 +207,38 @@ body {
     padding-left: 5rem;
     padding-top: 2rem;
 
+}
+
+
+/* rodape */
+
+#rodape{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 330px;
+}
+
+#logo-r img{
+    padding-top:50px ;
+    height: 107px;
+}
+
+#contato{
+    padding-top:50px ;
+}
+#contatos{
+    display: flex;
+    gap: 20px;
+}
+
+#contatos img{
+    padding-top: 15px;
+    height: 37px;
+    width: 37px;
+}
+
+#infos{
+    padding-top: 50px;
+    padding-right: 40px;
 }

@@ -71,6 +71,7 @@ body {
     height: auto;
 }
 
+
 /* SESSÕES */
 #apresentacao {
     padding: 3px;
@@ -121,12 +122,14 @@ body {
 
 /*galeria*/
 #galeria{
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
+#cardapio{
+ justify-content: center;
+}
 .carousel-container {
     width: 600px;
     height: 600px;

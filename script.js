@@ -6,9 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
     const intervalTime = 3000;
 
-    /**
-     * @param {number} index - indice.
-     */
     function showSlide(index) {
         const imageWidth = images[0].clientWidth;
         track.style.transform = `translateX(-${index * imageWidth}px)`;

@@ -274,7 +274,7 @@ body {
 
 #infos{
     padding-top: 50px;
-    padding-right: 40px;
+    padding-right: 100px;
 }
 
 /* chefe */
@@ -296,4 +296,7 @@ body {
 #saibamais{
    padding-left: 10vh;
    text-decoration: underline;
+}
+#infos :hover{
+    text-decoration: underline;
 }

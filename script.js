@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const intervalTime = 3000;
 
     /**
-     * Função centralizada para mostrar um slide específico (imagem e texto).
-     * @param {number} index - O índice do slide a ser exibido.
+     * @param {number} index - indice.
      */
     function showSlide(index) {
         const imageWidth = images[0].clientWidth;
